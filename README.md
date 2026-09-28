@@ -9,6 +9,12 @@ Motor de Relacionamento com o Cliente, desenhado como blueprint replicável.
 corpo de 6 páginas, na ordem dos 7 itens do enunciado, com apêndice de referência (premissas e fontes de
 custo, sensibilidade, implantação, integrações, drift, adoção, pontos de discovery e referências).
 
+## Protótipo
+
+**[agentic-cx-blueprint](https://github.com/fabricioespel-bit/agentic-cx-blueprint)** (público): protótipo
+desta arquitetura em versão genérica, com banco fictício. O núcleo determinístico (catálogo, política,
+confirmação amarrada, idempotência e servidor MCP de cartões) está implementado e testado.
+
 ## Conteúdo do repositório
 
 | Caminho | O que é |
