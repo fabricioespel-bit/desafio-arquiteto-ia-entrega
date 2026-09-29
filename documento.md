@@ -397,9 +397,10 @@ registros · posição de Compliance/DPO sobre o endpoint global.
 Decisões deste documento aplicam métodos que usei em projetos próprios:
 
 - [agentic-cx-blueprint](https://github.com/fabricioespel-bit/agentic-cx-blueprint): protótipo desta
-  arquitetura em versão genérica (banco fictício). Já implementa e testa o núcleo determinístico: catálogo com
-  negação por padrão, política, confirmação amarrada, idempotência e servidor MCP de cartões. A integração com
-  o agente é a próxima etapa.
+  arquitetura em versão genérica (banco fictício). Implementa e testa o núcleo determinístico (catálogo com
+  negação por padrão, política, confirmação amarrada, idempotência e servidor MCP de cartões) e o agente
+  integrado a ele: um grafo do ADK em que o LLM só classifica a intenção, e toda autorização e execução é
+  código.
 - [rag-quality-assurance](https://github.com/fabricioespel-bit/rag-quality-assurance): avaliação em níveis e o
   caso de recuperação perfeita com resposta errada.
 - [finops-llm-routing](https://github.com/fabricioespel-bit/finops-llm-routing): decisão de modelo por custo,

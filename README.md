@@ -13,7 +13,8 @@ custo, sensibilidade, implantação, integrações, drift, adoção, pontos de d
 
 **[agentic-cx-blueprint](https://github.com/fabricioespel-bit/agentic-cx-blueprint)** (público): protótipo
 desta arquitetura em versão genérica, com banco fictício. O núcleo determinístico (catálogo, política,
-confirmação amarrada, idempotência e servidor MCP de cartões) está implementado e testado.
+confirmação amarrada, idempotência e servidor MCP de cartões) e o agente integrado a ele (LLM só no
+classificador) estão implementados e testados.
 
 ## Conteúdo do repositório
 
